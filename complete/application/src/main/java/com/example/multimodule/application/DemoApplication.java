@@ -21,6 +21,11 @@ public class DemoApplication {
 		return myService.message();
 	}
 
+	@GetMapping("/FawziyahAlebiosu")
+	public String home() {
+		return myService.message();
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
